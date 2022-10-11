@@ -1,0 +1,101 @@
+
+
+.container-fluid{
+    display: grid;
+    grid-template-columns: 40%auto;
+    width: 80%;
+    height: 40rem;
+    margin-top: 5rem;
+    
+}
+
+.left{
+   background-color:  #24073A; 
+   
+}
+
+.right{
+
+    background-color:  #eee6f5;
+    padding: 0 4.5rem;   
+
+}
+
+.leftHead{
+    display: flex;
+    margin-top: 4rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.lists li{ 
+   font-size: 2rem; 
+   font-weight: lighter;
+   color: white;
+   margin-top: 2rem;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+}
+.logout{
+    border-radius: 1rem;
+    margin-top: 9rem;
+    width: 9rem;
+    height: 3rem;
+    background-color:  #BB9ED2;
+    font-weight: bolder;
+}
+
+.rightHead{
+    margin-top: 4rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+.today{
+    font-weight: bold;
+    font-size: 1.5rem;
+   
+}
+
+.add{
+    border-radius: 1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color:  #BB9ED2;
+    font-weight: bolder;
+
+}
+
+.main{
+    margin-top: 2rem;
+}
+
+.taskHead{
+    font-weight: bold;
+}
+
+.titHead{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.btn{
+    background-color: #24073A;
+    color: white;
+}
+
+.modal-title{
+    font-weight: bold;
+}
+
+.modal-header{
+    background-color: #BB9ED2;
+}
